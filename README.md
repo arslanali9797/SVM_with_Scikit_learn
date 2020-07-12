@@ -35,5 +35,17 @@ This is mandatory step, make sure that the ipynb file run successfully .if ipynb
 
 ## step 4
 After successfully running the file ,we train our model with images .we use Scikit learn along svm to identify the name by given input images. Our model is trained and it will give you the name of personality of that image you have given .
-## step 5
+
+## step 5 (Now you can test any image in our model)
+This is testing phase although the model test is done in the file but we also test our model through external image (images that not include in dataset). you can load any images from 8 selected personalizes then test it and  get the result   
+This project is under development phase, we are unable to deploy the project on local web services, that can be deploy in future. 
+
+## For more details please visit
+ ### Video (sharable link)
+https://drive.google.com/drive/folders/1QtA74AKimFurP23LuF_Mc8J2ECBOVej1?usp=sharing
+### Database 
+We use scikit learn library, so scikit learn library contain some dataset, we use one of them having named “fetch_lfw_people” that consist of  multiple celebrity images.But due to less number of images we chose 8 celebirities having good no of images . There is no worry about dataset just few line of code will download the dataset easily. 
+
+
+
 
