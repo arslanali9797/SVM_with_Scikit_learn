@@ -30,7 +30,10 @@ first your have to download all the necessary librery to successfully run the fi
 now clone or download  the project at your work place .
 
 ## step 3 ( Download Dataset)
-this is mendatory step , make sure that the ipynb file run succesfully .ifthe file contain codes and description comments ,if your want to know more detail about code watch this video
+This is mandatory step, make sure that the ipynb file run successfully .if ipynb file run successful then the dataset will be download automatically for that we use scikit learn.Scikit learn contain some dataset so we use that dataset one of them . File contain codes and description and comments, if you want to know more detail about code go for the links
+ https://drive.google.com/drive/folders/1QtA74AKimFurP23LuF_Mc8J2ECBOVej1?usp=sharing
 
 ## step 4
-if the file run successfully then apply the 4th step otherwise it will not work properly .
+After successfully running the file ,we train our model with images .we use Scikit learn along svm to identify the name by given input images. Our model is trained and it will give you the name of personality of that image you have given .
+## step 5
+
