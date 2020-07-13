@@ -1,5 +1,28 @@
 # SVM_with_Scikit_learn
-## In this project we are going to indentify the personality through machine learning where we use support vector machine with scikit learn. the dataset is alredy provide inside the scikit learn librery.The project is also cover the  deployment phase in local host .This project is going to  predict the personality with image.
+## Introduction
+This project is based on image classification, where different personality’s images are used to train the mode. This model is trained on 8 different personalities. It will analysis the image (inclusive of 8 persons) and identifies the name. To achieve our purpose we are going to use Scikit library with SVM (support vector Machine) we know that SVMs are a powerful class of supervised learning algorithms for classification. We will also give you an opportunity to deploy this over the local host with the help of Flask platform .No need to worry about dataset the file will automatically download the dataset from scikit learn library
+
+## Problem Statement
+In this project we are going to identify the personality through machine learning where we use support vector machine with scikit learn. the dataset is already provide inside the scikit learn library .The project is also cover the deployment phase in local host .This project is going to predict the personality with image.
+
+
+## Methodology 
+In this project we are using Scikit library with SVM (support vector Machine). Support Vector Machines is one of the most popular and widely used supervised machine learning algorithms. Our model is going to trained with some other components. 
+Like we use PCA (principal components analysis) .PCA-based data selection and image feature extraction for SVM classification. PCA allow reduce the features without losing the data.
+
+
+With PCA we use pipeline, used to sequentially apply a list of transforms and a final estimator. The purpose of the pipeline is to assemble several steps that can be cross-validated together while setting different parameters. 
+
+
+In Last GridSearchCV is use to provide the best hyperplane .it will give the optimal parameter which best fit our model .after applying the all-important concepts our model is now trained.
+
+
+## Conclusion
+We use SVM module with rbf (Radial basis function) kernel .and we use with PCA to reduce to features that is 150 features, then we use GridSearchCV gives the optimal parameter(c,gama) for better performance. In last we accrue the model accuracy with 81%.
+
+
+### Now the time to follow the procedure to run the project
+
 
 # Dependencies
 import matplotlib.pyplot as plt
@@ -16,12 +39,6 @@ import numpy as np
 import cv2 
 
 
-# Introduction 
-
-This project is based on image classification,where different personalities images are used to train the model. After that we will identify the image with their name.To achive our purpose we are going to implement the Scikit librery with SVM(support vector Machine )
-we know that SVMs are a powerful class of supervised learning algorithms for classification and regression problems. In the context of classification, SVMs can be viewed as maximum margin linear classifiers.We will also give you an oppertunity to deploy this over the localhost with the help of Flask plartform .No need to wory about data set the file will automatically download the datased from scikit learn librery .
-
-### Now the time to follow the procedure to run the project
 
 ## step 1 
 first your have to download all the necessary librery to successfully run the file .All libreries are mentioned above.
